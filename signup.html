@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section id="content-complete">
+  <div id="header">
+    <h1>Zuri Registeration</h1>
+    <p><i>Please fill the form below to get on the Zuri train..</i></p>
+  </div>
+
+  <div id="form-content">
+    <form action="login.html">
+      <div>
+        <label for="firstname">First Name</label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your first name" required>
+      </div>
+      <div>
+        <label for="lastname">Last Name</label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your last name" required>
+      </div>
+      <div>
+        <label for="phone-no">Phone Number</label>
+        <br>
+        <input type="tel" id="phone-no" placeholder="Enter your phone number" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Enter your Email" required>
+      </div>
+      <div>
+        <p>Gender</p>
+        <select name="gender" id="gender" required>
+          <option disabled selected value="">Select Your Gender</option>
+          <option value="">Male</option>
+          <option value="">Female</option>
+        </select>
+      </div>
+
+      <label for="dateOfBirth">Date Of Birth</label>
+  <input type="date" id="dateOfBirth" name="birthday" 
+    placeholder="Chose Your DOB" required>
+
+      <label for="favcolor">Favorite Color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000" required>
+
+      <div class="">
+        <button type="submit" id="submit">
+          <a href="">
+            Submit
+          </a>
+        </button>
+      </div>
+    </form>
+  </div>
+
+</section>
+  <script src="script.js"></script>
+</body>
+
+</html>
