@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(./img/keyboard-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #333;
+  }
+  
+  nav li {
+    float: right;
+  }
+
+  .left {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+
+  #first {
+    height: 100vh;
+    /* background: url(./img/keyboard-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    min-height: 100vh;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blue {
+    color: #3498db;
+  }
+  
+  .intro {
+    margin-top: 120px;
+  }
+
+  .intro p {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .btn {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #3498db;
+    font-size: 1.5em;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.button {
+    margin-top: 32px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #3498db;;
+}
+
+#about-me {
+    background-color: transparent;
+    padding-top: 24px;
+}
+
+.about-container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+#about-me h1, .services p, .proj p {
+    text-align: center;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.text-box, .img-box, .proj {
+    background-color: transparent;
+    flex-basis: 50%;
+}
+
+.text-box {
+    font-weight: 500;
+}
+.mypic {
+    width: 100%;
+    height: 420px;
+}
+
+#hobbies {
+    margin-top: 16px;
+    padding-left: 30px;
+}
+#hobbies ul {
+    list-style-type: none;
+    
+}
+
+#hobbies ul li {
+    padding-bottom: 8px;
+}
+
+#hobbies ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#hobbies p {
+    font-size: 24px;
+}
+
+#services, #projects {
+    flex-basis: 50%;
+}
+
+.others {
+    margin-top: 50px;
+    margin-bottom: 80px
+}
+
+.others ul {
+    list-style-type: none; 
+}
+
+.others ul li {
+    padding-bottom: 8px;
+}
+
+.others ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.services ul, .proj ul{
+    padding-left: 35%;
+}
+
+footer p {
+    text-align: center;
+    background-color: black;
+    color: #333;
+}
+
+
+
+#form-sec {
+    padding-top: 35px;
+}
+
+.form-container {
+    color: white;
+    background-color: #333;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.form-container h3 {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.btn-dark a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.email {
+    margin-top: 24px;
+    text-align: center;
+}
